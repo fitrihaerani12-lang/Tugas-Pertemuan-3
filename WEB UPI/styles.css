@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+}
+
+.navbar-container {
+    display: flex;
+    background-color: aqua;
+    padding: 15px 100px;
+    justify-content: space-between;
+    align-items: baseline;
+
+}
+.nav-list ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.brand-logo img {
+    height: 50px;
+}
+
+ .nav-list ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+ }
+ .content {
+    display: flex;
+    margin: 0 100px;
+    gap: 50px;
+    align-items: center;
+ }
+
+ .content img {
+    height: 300px;
+ }
+ .title {
+    font-size: 72px;
+    margin-bottom: 0;
+ }
+ .social-media ul {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    right: 0;
+    margin: 0;
+    background-color: red;
+    border-radius: 10px 0 0 10px;
+    list-style: none;
+    padding: 15px;
+    top: 25vh;
+    gap: 10px;
+ }
+ .social-media ul li a {
+    color: white;
+ }
+ #more-info-btn {
+    background-color: red;
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 16px;
+    color: white;
+ }
+ 

@@ -1,0 +1,7 @@
+.kotak {
+    width: 200px;
+    background-color: lightgray;
+    padding: 25px;
+    border: 2px solid black;
+    margin: 15px;
+}
